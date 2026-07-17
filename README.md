@@ -79,7 +79,7 @@ This project was developed to simplify the daily attendance process in schools. 
 
 ## 👨‍💻 Developer
 
-**᛫⸺⃛͢𓆰 𝅃꯭꯭᳚𝐊𝐀֟፝𝐆̄𝐔፝𝐑𝐎𝅃꯭꯭᳚ ୧⍤⃝♡^᪲᪲**
+**KAGURO**
 
 🌐 Portfolio: https://k4guro.github.io/WebIntroduction_K4GURO
 
