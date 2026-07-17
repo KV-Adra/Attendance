@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Generator</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <div class="header-top">
+                <div class="logo-section">
+                    <img src="logo.png" id="schoolLogo" alt="KV Logo">
+                    <div>
+
+                        <h1>PM SHRI Kendriya Vidyalaya Adra</h1>
+
+                        <h2>Attendance Generator</h2>
+
+                        <p id="className">
+                            <strong>Class:</strong> IX-A
+                        </p>
+
+                        <p id="teacherName">
+                            <strong>Class Teacher:</strong> Subhra Roy
+                        </p>
+
+                        <p id="dateTime"></p>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="🔍 Search student...">
+        </div>
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="card">
+                <h3>Total Strength</h3>
+                <span id="totalStudents">0</span>
+            </div>
+
+            <div class="card">
+                <h3>Boys Present</h3>
+                <span id="boysPresent">0</span>
+            </div>
+
+            <div class="card">
+                <h3>Girls Present</h3>
+                <span id="girlsPresent">0</span>
+            </div>
+
+            <div class="card">
+                <h3>Present</h3>
+                <span id="presentCount">0</span>
+            </div>
+
+            <div class="card">
+                <h3>Absent</h3>
+                <span id="absentCount">0</span>
+            </div>
+
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+
+            <!-- Student List -->
+            <section class="student-panel">
+
+                <div class="panel-header">
+                    <h2>Student List</h2>
+
+                    <div class="panel-buttons">
+                        <button id="selectAllBtn">Select All</button>
+                        <button id="clearAllBtn">Clear All</button>
+                    </div>
+                </div>
+
+                <div id="studentList" class="student-list">
+                    <!-- Students will be added here using JavaScript -->
+                </div>
+
+            </section>
+
+            <!-- Result Panel -->
+            <section class="result-panel">
+
+                <div class="panel-header">
+                    <h2>Generated List</h2>
+                </div>
+
+                <textarea id="resultBox" readonly placeholder="Generated absentee list will appear here..."></textarea>
+
+                <div class="result-buttons">
+                    <button id="generateBtn">Generate</button>
+                    <button id="copyBtn">Copy</button>
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <div id="toast"></div>
+
+    <footer>
+        Developed with ❤️ by <strong>K4GURO</strong> | 
+        
+        <a href="https://k4guro.github.io/WebIntroduction_K4GURO/"
+        target="_blank"
+        rel="noopener noreferrer">
+        DEV U KNOW
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
