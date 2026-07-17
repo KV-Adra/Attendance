@@ -81,9 +81,8 @@ This project was developed to simplify the daily attendance process in schools. 
 
 **Aditya Raj**
 
-🌐 Portfolio: https://your-portfolio-link
-
-GitHub: https://github.com/yourusername
+🌐 Portfolio: https://k4guro.github.io/WebIntroduction_K4GURO
+GitHub: https://github.com/K4GURO
 
 ---
 
