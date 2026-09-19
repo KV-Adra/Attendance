@@ -9,7 +9,7 @@ const students = [
   { roll: 4, name: "Anannya Mahato", gender: "Girl" },
   { roll: 5, name: "Angshuman Bauri", gender: "Boy" },
   { roll: 6, name: "Anjali Surin", gender: "Girl" },
-  { roll: 7, name: "Ankita Mahajan", gender: "Boy" },
+  { roll: 7, name: "Ankita Mahajan", gender: "Girl" },
   { roll: 8, name: "Antara Chakraborty", gender: "Girl" },
   { roll: 9, name: "Anubhab Mishra", gender: "Boy" },
   { roll: 10, name: "Arka Karmakar", gender: "Boy" },
