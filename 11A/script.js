@@ -266,7 +266,7 @@ generateBtn.addEventListener("click",function(){
         today.getFullYear();
 
     let output =
-`9A Today's Absentees 
+`11A Today's Absentees 
 (${date})
 
 `;
